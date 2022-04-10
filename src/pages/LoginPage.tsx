@@ -11,7 +11,7 @@ export const LoginPage = () => {
       <TextField 
        label="비밀번호" 
        placeholder="비밀번호를 입력해주세요." 
-       type='password'/>
+       type='password' />
      </div>
 
      <div className="mt-10">
