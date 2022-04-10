@@ -5,12 +5,13 @@ export const HomePage = () => {
   return (
   <div className="m-4 space-y-10">
     <div className="space-y-4">
-      <div className="text-2xl font-bold>New</div>
-      <img 
-        src="https://media.istockphoto.com/photos/happy-long-haired-brown-tabby-cat-is-relaxing-on-a-felt-cat-bed-at-picture-id1298824982?b=1&k=20&m=1298824982&s=170667a&w=0&h=0WxHPWevNKm3sRoX0Asba4E3tf25XNpZuat-rprYqQw=" 
-        alt""
-        className="w-full h-72 object-cover rounded-2xl" 
-      />
+      <div className="text-2xl font-bold">New</div>
+      <div>
+        <img src="http://source.unsplash.com/random" 
+             alt="" 
+             className="w-full h-72 object-cover rounded-2xl"
+        />
+      </div>
     </div>
 
     <div className="space-y-4">
