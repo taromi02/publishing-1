@@ -78,14 +78,39 @@ export const HomePage = () => {
             <div className="bg-gray-800 rounded-md text-white text-center py-2.5 px-4">
               Button
             </div>
-
           </div>
-
         </div>
+      </div>
+    </div>
 
+    <div>
+      <div className="text-2xl font-bold mb-4">Today's EWHA</div>
+      <div>
+        <img src="http://source.unsplash.com/random" 
+             alt="" 
+             className="w-full h-30 object-cover rounded-2xl flex justify-start"
+        />
+        <div className="text-xl font-bold mb-2">오늘의 이화</div>
+        <div className="text-xs font-normal mb-2">오늘 하루의 이화를 담은 사진 한 컷!</div>
+        <div className="text-xs font-light mb-10">서울특별시 서대문구 이화여대길 52</div>
+      </div>
+      
+      <div>
+        <img src="http://source.unsplash.com/random" 
+             alt="" 
+             className="w-full h-70 object-cover rounded-2xl flex items-center"
+        />
+        <div className="text-xl font-bold mb-2">이화여대의 아름다운 새벽녘</div>
+        <div className="text-xs font-normal mb-2">이화여대에서 오늘 하루의 해가 떠오르고 있다.</div>
+        <div className="text-xs font-light mb-2">A.M.5:32</div>
       </div>
 
-    </div>
+      <div>
+        <div className="bg-green-800 rounded-md text-white text-center py-2.5 px-4">
+              더 많은 사진 보러 가기
+        </div>
+      </div>
+   </div>
 
   </div>);
 }
