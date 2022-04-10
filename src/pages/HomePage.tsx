@@ -78,9 +78,14 @@ export const HomePage = () => {
             <div className="bg-gray-800 rounded-md text-white text-center py-2.5 px-4">
               Button
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>);
-};
+}
