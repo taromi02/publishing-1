@@ -3,39 +3,83 @@ import { TextField } from '../components/TextField';
 
 export const HomePage = () => {
   return (
-  <div className="m-4">
-    <div>
-      <div>New</div>
-      <div></div>
+  <div className="m-4 space-y-10">
+    <div className="space-y-4">
+      <div className="text-2xl font-bold>New</div>
+      <img 
+        src="https://media.istockphoto.com/photos/happy-long-haired-brown-tabby-cat-is-relaxing-on-a-felt-cat-bed-at-picture-id1298824982?b=1&k=20&m=1298824982&s=170667a&w=0&h=0WxHPWevNKm3sRoX0Asba4E3tf25XNpZuat-rprYqQw=" 
+        alt""
+        className="w-full h-72 object-cover rounded-2xl" 
+      />
+    </div>
+
+    <div className="space-y-4">
+      <div className="text-2xl font-bold">Category</div>
+
+      <div className="flex space-x-6">
+        <div>
+          <img src="http://source.unsplash.com/random" 
+               alt="" 
+               className="w-20 h-20 object-cover rounded-full"
+          />
+          <div className="text-center">일식</div>
+        </div>
+
+        <div>
+          <img src="http://source.unsplash.com/random" 
+               alt="" 
+               className="w-20 h-20 object-cover rounded-full"
+          />
+          <div className="text-center">중식</div>
+        </div>
+
+        <div>
+          <img src="http://source.unsplash.com/random" 
+               alt="" 
+               className="w-20 h-20 object-cover rounded-full"
+          />
+          <div className="text-center">한식</div>
+        </div>
+
+        <div>
+          <img src="http://source.unsplash.com/random" 
+               alt="" 
+               className="w-20 h-20 object-cover rounded-full"
+          />
+          <div className="text-center">양식</div>
+        </div>
+
+      </div>
     </div>
 
 
   <div>
-    <div className="text-3xl font-bold mb-7">List</div>
+    <div className="text-2xl font-bold mb-4">List</div>
     
-    <div className="border p-4">
+    <div className="border p-4 rounded-md">
       <div>
-        <div className="h-48 bg-gray-100"></div>
+        <img 
+           src="http://source.unsplash.com/random" 
+           alt="" 
+           className="w=full h-60 object-cover rounded-2xl" 
+        />
         <div className="mt-4">
           <div className="text-lg font-semibold">Card title</div>
           <div className="text-gray-500">
-            Sed vel turpis adipiscing penatibus orci meque.
+            Sed vel turpis adipiscing penatibus orci meque. Erat sed
+            fermentum upsum vel quis quam. Nunc etiam dui tortor, non
+            aliquam lacinia tempor.
           </div>
+          <div className="mt-4 flex justify-end space-x-3">
+            <div className="bg-gray-800 rounded-md text-white text-center py-2.5 px-4">
+              Button
+            </div>
+            <div className="bg-gray-800 rounded-md text-white text-center py-2.5 px-4">
+              Button
+            </div>
+          </div>
+        </div>
       </div>
-    
-    
-    <img 
-     src="http://source.unsplash.com/random"
-     alt=""
-     className="w=full h-90 object-cover mb-7"/>
-
-    <div className="text-xl font-bold">Card Title</div>
-    <div className="text-ms font-light mb-5">상세설명</div>
-
-    <div>
-      <div className="bg-gray-800 text-white text-center py-4">button</div>
-      <div className="text-center py-4 text-gray-800 border-gray-800 mt-2">회원가입</div>
     </div>
-
   </div>);
-}
+};
